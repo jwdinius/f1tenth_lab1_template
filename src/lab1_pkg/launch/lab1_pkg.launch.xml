@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="lab1_pkg" exec="relay" name="relay"/>
+  <node pkg="lab1_pkg" exec="talker" name="talker">
+    <param name="v" value="1.5"/>
+    <param name="d" value="2.0"/>
+  </node>
+</launch>
